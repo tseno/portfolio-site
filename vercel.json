@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "portfolio-site",
+  "name": "tseno-portfolio",
   "builds": [
     {
       "src": "package.json",
