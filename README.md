@@ -1,24 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tadayuki Seno's Portfolio
 
-## Getting Started
+AI-Driven Backend Engineer のポートフォリオサイトです。
 
-First, run the development server:
+## 技術スタック
+
+- **Framework**: Next.js 15.3
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
+- **Deployment**: Vercel
+
+## 機能
+
+- レスポンシブデザイン
+- プロフィール・キャリア情報
+- 技術スキル一覧
+- 主要プロジェクト実績
+- AI活用開発の実績紹介
+
+## 開発環境のセットアップ
 
 ```bash
+# 依存関係のインストール
+npm install
+
+# 開発サーバーの起動
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+[http://localhost:3000](http://localhost:3000) でサイトを確認できます。
 
 ## Learn More
 
@@ -29,8 +38,35 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Vercelへのデプロイ
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 1. Vercelアカウントの準備
+- [Vercel](https://vercel.com) でアカウントを作成
+- GitHubアカウントと連携
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 2. GitHubリポジトリの作成
+```bash
+# GitHubでリポジトリを作成後
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin [YOUR_GITHUB_REPO_URL]
+git push -u origin main
+```
+
+### 3. Vercelでのデプロイ
+1. [Vercel Dashboard](https://vercel.com/dashboard) にログイン
+2. "New Project" をクリック
+3. GitHubリポジトリを選択
+4. プロジェクト設定を確認（デフォルトでOK）
+5. "Deploy" をクリック
+
+### 4. 自動デプロイの設定
+- GitHubの main ブランチへの push で自動デプロイ
+- プレビュー環境も自動で作成
+
+## 連絡先の更新
+
+デプロイ前に以下のファイルでメールアドレスを実際のものに変更してください：
+- `src/app/page.tsx` の `mailto:contact@example.com` 部分
