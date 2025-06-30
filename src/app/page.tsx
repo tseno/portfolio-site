@@ -16,7 +16,7 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-br from-cyan-400/10 via-transparent to-purple-600/10"></div>
                     <div className="relative z-10 text-center">
                       <div className="text-4xl md:text-5xl font-bold font-mono tracking-wide mb-4 relative">
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-400 drop-shadow-lg">Tadayuki Seno's</span>
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 via-blue-400 to-purple-400 drop-shadow-lg">Tadayuki Seno&apos;s</span>
                         <br/>
                         <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-300 drop-shadow-lg">Portfolio Site</span>
                       </div>
